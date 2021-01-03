@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    char myCharacter;
-    myCharacter = 'y';
+    int a(1);
+    int b = 13;
 
-    int myInt;
-    myInt = 13;
-
-    std::cout << myCharacter << endl;
+    if (b < a)
+    {
+        cout << "a is less than b." << endl;
+    }
 
     system("pause");
 }
